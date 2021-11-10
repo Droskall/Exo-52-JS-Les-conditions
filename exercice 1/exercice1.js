@@ -1,6 +1,17 @@
 /* Modifier le code ci dessous pour réaliser l'exercice */
 
-if x > y
+let x = prompt('x ?');
+let y = prompt('y ?');
+
+if (x > y) {
     document.getElementById('monDiv').innerHTML = "La variable x est supérieure à la variable y";
+}
+
+else {
+    document.getElementById('monDiv').innerHTML = "La variable x est inferieur à y";
+}
+
+
+
 
 
